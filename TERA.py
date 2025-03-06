@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import numpy as np
 import scipy.stats as stats
 
-data= pd.read_csv("C:/Users/liush/Downloads/data/all.csv")
+data= pd.read_csv("all.csv")
 data["year"] = data["year"].astype(str)
 
 # Set page configuration
